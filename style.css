@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* ================= HEADER ================= */
+.gov-header {
+    background: #f5f5f5;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+
+.emblem img {
+    height: 60px;
+}
+
+.logo img {
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+
+.gov-title {
+    text-align: center;
+    margin-left: 120px;
+   
+}
+
+
+.gov-title h1 {
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.gov-title p {
+    font-size: 20px;
+   
+     
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+    background: #0b4da2;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links li a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-links li a:hover {
+    background: #083b7a;
+}
+
+/* ================= HERO ================= */
+.hero {
+    min-height: 420px;
+    background-image: url("hero.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+    background-color: #f5f7fb;
+}
+
+
+
+
+
+
+/* Text overlay */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    padding: 90px 60px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #1a2a5a;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 22px;
+    margin-left: 40px;
+}
+
+.hero-btn {
+    display: inline-block;
+    background: #0b4da2;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+
+
+/* ================= INITIATIVES ================= */
+.initiatives {
+    padding: 50px 0;
+    background: #fafafa;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.card i {
+    font-size: 35px;
+    color: #0b4da2;
+    margin-bottom: 15px;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    background: #0b4da2;
+    color: white;
+    padding: 30px 0;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer h4 {
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+/* ================= DROPDOWN NAVBAR ================= */
+
+.nav-links {
+    position: relative;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    min-width: 200px;
+    list-style: none;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    z-index: 999;
+}
+
+.dropdown-menu li a {
+    color: #000;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    background: #f0f0f0;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* ================= INNER PAGES ================= */
+
+.inner-page {
+    padding: 60px 0;
+    background: #ffffff;
+}
+
+.inner-page p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.inner-page h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #0b4da2;
+}
+
+.inner-page ul {
+    margin-left: 20px;
+}
+
+.inner-page ul li {
+    margin-bottom: 8px;
+}
+
+/* ================= CONTACT FORM ================= */
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background: #0b4da2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #083b7a;
+}
+
